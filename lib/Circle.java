@@ -11,6 +11,7 @@ public class Circle extends shape {
         return radius;
     }
 
+    @Override
     public String getShapeName() {
         return name;
     }
