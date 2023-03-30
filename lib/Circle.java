@@ -1,5 +1,6 @@
 public class Circle extends shape {
     private double radius;
+    private String name = "Circle";
 
     public Circle(Posn center, double radius) {
         super(center);
@@ -8,6 +9,10 @@ public class Circle extends shape {
 
     public double getRadius() {
         return radius;
+    }
+
+    public String getShapeName() {
+        return name;
     }
 
     @Override

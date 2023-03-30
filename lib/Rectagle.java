@@ -1,11 +1,16 @@
 public class Rectagle extends shape {
     private double width;
     private double height;
+    public String name = "Rectangle";
 
     public Rectagle(Posn center, double width, double height) {
         super(center);
         this.width = width;
         this.height = height;
+    }
+
+    public String getShapeName() {
+        return name;
     }
 
     public double getWidth() {
