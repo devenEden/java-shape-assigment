@@ -4,7 +4,7 @@ This repository contains the code for a Shapes Assignment project. The project i
 
 ## How to Use
 
-To use the program, simply run the index class. You will be prompted to select a shape and enter the relevant dimensions. Once you have entered the necessary information, the program will calculate and display the area and perimeter of the selected shape.
+To use the program, simply run the index class. You will be prompted to select a shape and enter the relevant dimensions. Once you have entered the necessary information, the program will calculate and display the area and perimeter of the selected shape .
 
 ## Files
 
