@@ -9,6 +9,8 @@ public abstract class shape {
         return center;
     }
 
+    public abstract String getShapeName();
+
     public abstract double perimeter();
 
     public abstract double area();

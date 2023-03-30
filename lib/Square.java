@@ -11,6 +11,7 @@ public class Square extends shape {
         return sideLength;
     }
 
+    @Override
     public String getShapeName() {
         return name;
     }
@@ -33,4 +34,3 @@ public class Square extends shape {
         return xDiff <= halfSideLength && yDiff <= halfSideLength;
     }
 }
-
